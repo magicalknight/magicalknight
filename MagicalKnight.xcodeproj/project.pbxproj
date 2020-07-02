@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29D28D024802BE930D05C169 /* Pods_MagicalKnight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433289AD43D20BCD68D9BEAD /* Pods_MagicalKnight.framework */; };
 		330D937D24ADBA720006D7CC /* MagicalKnight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D937324ADBA710006D7CC /* MagicalKnight.framework */; };
 		330D938224ADBA720006D7CC /* MagicalKnightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330D938124ADBA720006D7CC /* MagicalKnightTests.swift */; };
 		330D938424ADBA720006D7CC /* MagicalKnight.h in Headers */ = {isa = PBXBuildFile; fileRef = 330D937624ADBA710006D7CC /* MagicalKnight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1AA74C137ADFCC536EC3E1C /* Pods_MagicalKnight_MagicalKnightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9D0AB3B4295455BBCEA52 /* Pods_MagicalKnight_MagicalKnightTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02502DB9D93AA35AE6A7A898 /* Pods-MagicalKnight-MagicalKnightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalKnight-MagicalKnightTests.release.xcconfig"; path = "Target Support Files/Pods-MagicalKnight-MagicalKnightTests/Pods-MagicalKnight-MagicalKnightTests.release.xcconfig"; sourceTree = "<group>"; };
+		2128D4BED733E6DA9E4B728E /* Pods-MagicalKnight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalKnight.release.xcconfig"; path = "Target Support Files/Pods-MagicalKnight/Pods-MagicalKnight.release.xcconfig"; sourceTree = "<group>"; };
+		2D34EE23433EE5F29672FB2B /* Pods-MagicalKnight-MagicalKnightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalKnight-MagicalKnightTests.debug.xcconfig"; path = "Target Support Files/Pods-MagicalKnight-MagicalKnightTests/Pods-MagicalKnight-MagicalKnightTests.debug.xcconfig"; sourceTree = "<group>"; };
 		330D937324ADBA710006D7CC /* MagicalKnight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicalKnight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		330D937624ADBA710006D7CC /* MagicalKnight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicalKnight.h; sourceTree = "<group>"; };
 		330D937724ADBA710006D7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		330D937C24ADBA720006D7CC /* MagicalKnightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalKnightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		330D938124ADBA720006D7CC /* MagicalKnightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalKnightTests.swift; sourceTree = "<group>"; };
 		330D938324ADBA720006D7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433289AD43D20BCD68D9BEAD /* Pods_MagicalKnight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalKnight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC1A8CFE8495D8FF457E515 /* Pods-MagicalKnight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalKnight.debug.xcconfig"; path = "Target Support Files/Pods-MagicalKnight/Pods-MagicalKnight.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F9D0AB3B4295455BBCEA52 /* Pods_MagicalKnight_MagicalKnightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalKnight_MagicalKnightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D28D024802BE930D05C169 /* Pods_MagicalKnight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				330D937D24ADBA720006D7CC /* MagicalKnight.framework in Frameworks */,
+				D1AA74C137ADFCC536EC3E1C /* Pods_MagicalKnight_MagicalKnightTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07DD78A79D9C2ECE1FDF57D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433289AD43D20BCD68D9BEAD /* Pods_MagicalKnight.framework */,
+				D6F9D0AB3B4295455BBCEA52 /* Pods_MagicalKnight_MagicalKnightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		330D936924ADBA710006D7CC = {
 			isa = PBXGroup;
 			children = (
 				330D937524ADBA710006D7CC /* MagicalKnight */,
 				330D938024ADBA720006D7CC /* MagicalKnightTests */,
 				330D937424ADBA710006D7CC /* Products */,
+				8B949A62754F7D4689604176 /* Pods */,
+				07DD78A79D9C2ECE1FDF57D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +107,18 @@
 			path = MagicalKnightTests;
 			sourceTree = "<group>";
 		};
+		8B949A62754F7D4689604176 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1A8CFE8495D8FF457E515 /* Pods-MagicalKnight.debug.xcconfig */,
+				2128D4BED733E6DA9E4B728E /* Pods-MagicalKnight.release.xcconfig */,
+				2D34EE23433EE5F29672FB2B /* Pods-MagicalKnight-MagicalKnightTests.debug.xcconfig */,
+				02502DB9D93AA35AE6A7A898 /* Pods-MagicalKnight-MagicalKnightTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 330D938724ADBA720006D7CC /* Build configuration list for PBXNativeTarget "MagicalKnight" */;
 			buildPhases = (
+				35514094F3034ADF7C63F26E /* [CP] Check Pods Manifest.lock */,
 				330D936E24ADBA710006D7CC /* Headers */,
 				330D936F24ADBA710006D7CC /* Sources */,
 				330D937024ADBA710006D7CC /* Frameworks */,
@@ -122,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 330D938A24ADBA720006D7CC /* Build configuration list for PBXNativeTarget "MagicalKnightTests" */;
 			buildPhases = (
+				B7688046791B4DA877FCFDBF /* [CP] Check Pods Manifest.lock */,
 				330D937824ADBA720006D7CC /* Sources */,
 				330D937924ADBA720006D7CC /* Frameworks */,
 				330D937A24ADBA720006D7CC /* Resources */,
@@ -189,6 +224,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35514094F3034ADF7C63F26E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalKnight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7688046791B4DA877FCFDBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalKnight-MagicalKnightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		330D936F24ADBA710006D7CC /* Sources */ = {
@@ -339,6 +421,7 @@
 		};
 		330D938824ADBA720006D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC1A8CFE8495D8FF457E515 /* Pods-MagicalKnight.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,6 +431,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MagicalKnight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +447,7 @@
 		};
 		330D938924ADBA720006D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2128D4BED733E6DA9E4B728E /* Pods-MagicalKnight.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -372,6 +457,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MagicalKnight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +473,7 @@
 		};
 		330D938B24ADBA720006D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D34EE23433EE5F29672FB2B /* Pods-MagicalKnight-MagicalKnightTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A564426QZX;
@@ -405,6 +492,7 @@
 		};
 		330D938C24ADBA720006D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02502DB9D93AA35AE6A7A898 /* Pods-MagicalKnight-MagicalKnightTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A564426QZX;
