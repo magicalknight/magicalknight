@@ -11,6 +11,7 @@
 		330D937D24ADBA720006D7CC /* MagicalKnight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D937324ADBA710006D7CC /* MagicalKnight.framework */; };
 		330D938224ADBA720006D7CC /* MagicalKnightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330D938124ADBA720006D7CC /* MagicalKnightTests.swift */; };
 		330D938424ADBA720006D7CC /* MagicalKnight.h in Headers */ = {isa = PBXBuildFile; fileRef = 330D937624ADBA710006D7CC /* MagicalKnight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33352EB724ADBD8100DF816C /* MagicalKnight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33352EB624ADBD8100DF816C /* MagicalKnight.swift */; };
 		D1AA74C137ADFCC536EC3E1C /* Pods_MagicalKnight_MagicalKnightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9D0AB3B4295455BBCEA52 /* Pods_MagicalKnight_MagicalKnightTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		330D937C24ADBA720006D7CC /* MagicalKnightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalKnightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		330D938124ADBA720006D7CC /* MagicalKnightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalKnightTests.swift; sourceTree = "<group>"; };
 		330D938324ADBA720006D7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33352EB624ADBD8100DF816C /* MagicalKnight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalKnight.swift; sourceTree = "<group>"; };
 		433289AD43D20BCD68D9BEAD /* Pods_MagicalKnight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalKnight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC1A8CFE8495D8FF457E515 /* Pods-MagicalKnight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalKnight.debug.xcconfig"; path = "Target Support Files/Pods-MagicalKnight/Pods-MagicalKnight.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F9D0AB3B4295455BBCEA52 /* Pods_MagicalKnight_MagicalKnightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalKnight_MagicalKnightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 			children = (
 				330D937624ADBA710006D7CC /* MagicalKnight.h */,
 				330D937724ADBA710006D7CC /* Info.plist */,
+				33352EB624ADBD8100DF816C /* MagicalKnight.swift */,
 			);
 			path = MagicalKnight;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				TargetAttributes = {
 					330D937224ADBA710006D7CC = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					330D937B24ADBA720006D7CC = {
 						CreatedOnToolsVersion = 11.5;
@@ -276,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33352EB724ADBD8100DF816C /* MagicalKnight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FC1A8CFE8495D8FF457E515 /* Pods-MagicalKnight.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A564426QZX;
@@ -439,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ht.magicalknig.MagicalKnight;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2128D4BED733E6DA9E4B728E /* Pods-MagicalKnight.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A564426QZX;
@@ -474,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D34EE23433EE5F29672FB2B /* Pods-MagicalKnight-MagicalKnightTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A564426QZX;
 				INFOPLIST_FILE = MagicalKnightTests/Info.plist;
@@ -493,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02502DB9D93AA35AE6A7A898 /* Pods-MagicalKnight-MagicalKnightTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A564426QZX;
 				INFOPLIST_FILE = MagicalKnightTests/Info.plist;
