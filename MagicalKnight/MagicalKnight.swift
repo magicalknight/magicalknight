@@ -9,7 +9,7 @@
 import UIKit
 
 private let MagicalKnightFrameworkName = "MagicalKnight"
-private let MagicalKnightVersionString = "1.0"
+private let MagicalKnightVersionString = "0.0.1"
 
 open class MagicalKnight: NSObject {
     public static let shared = MagicalKnight()
