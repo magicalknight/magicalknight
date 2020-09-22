@@ -6,6 +6,7 @@ target 'MagicalKnight' do
   use_frameworks!
 
   # Pods for MagicalKnight
+  pod 'KeychainSwift'
 
   target 'MagicalKnightTests' do
     # Pods for testing

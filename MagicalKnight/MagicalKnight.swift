@@ -6,19 +6,19 @@
 //  Copyright © 2020 ANNotunzdY®. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 private let MagicalKnightFrameworkName = "MagicalKnight"
 private let MagicalKnightVersionString = "0.0.1"
 
-open class MagicalKnight: NSObject {
-    public static let shared = MagicalKnight()
+@objc open class MagicalKnight: NSObject {
+    @objc public static let shared = MagicalKnight()
     
-    var name: String {
+    @objc open var name: String {
         return MagicalKnightFrameworkName;
     }
     
-    var version: String {
+    @objc open var version: String {
         return MagicalKnightVersionString;
     }
 }
