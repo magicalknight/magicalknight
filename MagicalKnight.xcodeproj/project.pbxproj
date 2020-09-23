@@ -11,6 +11,7 @@
 		330D937D24ADBA720006D7CC /* MagicalKnight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D937324ADBA710006D7CC /* MagicalKnight.framework */; };
 		330D938224ADBA720006D7CC /* MagicalKnightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330D938124ADBA720006D7CC /* MagicalKnightTests.swift */; };
 		330D938424ADBA720006D7CC /* MagicalKnight.h in Headers */ = {isa = PBXBuildFile; fileRef = 330D937624ADBA710006D7CC /* MagicalKnight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3329319F251AE62300602E80 /* UIViewController+MagicalKnight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329319E251AE62300602E80 /* UIViewController+MagicalKnight.swift */; };
 		33352EB724ADBD8100DF816C /* MagicalKnight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33352EB624ADBD8100DF816C /* MagicalKnight.swift */; };
 		33957F38251A12AE006339AC /* KeychainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33957F37251A12AE006339AC /* KeychainTextField.swift */; };
 		D1AA74C137ADFCC536EC3E1C /* Pods_MagicalKnight_MagicalKnightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9D0AB3B4295455BBCEA52 /* Pods_MagicalKnight_MagicalKnightTests.framework */; };
@@ -36,6 +37,7 @@
 		330D937C24ADBA720006D7CC /* MagicalKnightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalKnightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		330D938124ADBA720006D7CC /* MagicalKnightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalKnightTests.swift; sourceTree = "<group>"; };
 		330D938324ADBA720006D7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3329319E251AE62300602E80 /* UIViewController+MagicalKnight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MagicalKnight.swift"; sourceTree = "<group>"; };
 		33352EB624ADBD8100DF816C /* MagicalKnight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalKnight.swift; sourceTree = "<group>"; };
 		33957F37251A12AE006339AC /* KeychainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTextField.swift; sourceTree = "<group>"; };
 		433289AD43D20BCD68D9BEAD /* Pods_MagicalKnight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalKnight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				33957F37251A12AE006339AC /* KeychainTextField.swift */,
+				3329319E251AE62300602E80 /* UIViewController+MagicalKnight.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33352EB724ADBD8100DF816C /* MagicalKnight.swift in Sources */,
+				3329319F251AE62300602E80 /* UIViewController+MagicalKnight.swift in Sources */,
 				33957F38251A12AE006339AC /* KeychainTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
