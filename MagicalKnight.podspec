@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.source = { :git => 'none' }
     spec.summary = 'Generic modules for iOS Apps'
 
-    spec.source_files           = 'MagicalKnight/*.{h,m,swift}', 'MagicalKnight/UI/*.{h,m,swift}'
+    spec.source_files           = 'MagicalKnight/*.{h,m,swift}', 'MagicalKnight/UI/*.{h,m,swift}', 'MagicalKnight/Value/*.{h,m,swift}'
     spec.resources              = 'MagicalKnight/UI/*.{xib}'
     spec.framework              = 'UIKit'
 

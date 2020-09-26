@@ -13,6 +13,7 @@
 		330D938424ADBA720006D7CC /* MagicalKnight.h in Headers */ = {isa = PBXBuildFile; fileRef = 330D937624ADBA710006D7CC /* MagicalKnight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3329319F251AE62300602E80 /* UIViewController+MagicalKnight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329319E251AE62300602E80 /* UIViewController+MagicalKnight.swift */; };
 		33352EB724ADBD8100DF816C /* MagicalKnight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33352EB624ADBD8100DF816C /* MagicalKnight.swift */; };
+		334D7437251EDAA0001916AD /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D7436251EDAA0001916AD /* Int+Extension.swift */; };
 		33957F38251A12AE006339AC /* KeychainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33957F37251A12AE006339AC /* KeychainTextField.swift */; };
 		D1AA74C137ADFCC536EC3E1C /* Pods_MagicalKnight_MagicalKnightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9D0AB3B4295455BBCEA52 /* Pods_MagicalKnight_MagicalKnightTests.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		330D938324ADBA720006D7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3329319E251AE62300602E80 /* UIViewController+MagicalKnight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MagicalKnight.swift"; sourceTree = "<group>"; };
 		33352EB624ADBD8100DF816C /* MagicalKnight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalKnight.swift; sourceTree = "<group>"; };
+		334D7436251EDAA0001916AD /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		33957F37251A12AE006339AC /* KeychainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTextField.swift; sourceTree = "<group>"; };
 		433289AD43D20BCD68D9BEAD /* Pods_MagicalKnight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalKnight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC1A8CFE8495D8FF457E515 /* Pods-MagicalKnight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalKnight.debug.xcconfig"; path = "Target Support Files/Pods-MagicalKnight/Pods-MagicalKnight.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		330D937524ADBA710006D7CC /* MagicalKnight */ = {
 			isa = PBXGroup;
 			children = (
+				334D7435251EDAA0001916AD /* Value */,
 				33957F31251A1246006339AC /* UI */,
 				330D937624ADBA710006D7CC /* MagicalKnight.h */,
 				330D937724ADBA710006D7CC /* Info.plist */,
@@ -113,6 +116,14 @@
 				330D938324ADBA720006D7CC /* Info.plist */,
 			);
 			path = MagicalKnightTests;
+			sourceTree = "<group>";
+		};
+		334D7435251EDAA0001916AD /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				334D7436251EDAA0001916AD /* Int+Extension.swift */,
+			);
+			path = Value;
 			sourceTree = "<group>";
 		};
 		33957F31251A1246006339AC /* UI */ = {
@@ -313,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33352EB724ADBD8100DF816C /* MagicalKnight.swift in Sources */,
+				334D7437251EDAA0001916AD /* Int+Extension.swift in Sources */,
 				3329319F251AE62300602E80 /* UIViewController+MagicalKnight.swift in Sources */,
 				33957F38251A12AE006339AC /* KeychainTextField.swift in Sources */,
 			);
