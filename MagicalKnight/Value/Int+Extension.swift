@@ -17,4 +17,15 @@ public extension Int {
             return formatter.string(from: NSNumber(value: self)) ?? ""
         }
     }
+    
+    var withCommaAndPositivePrefix: String {
+        get {
+            let formatter = NumberFormatter()
+            formatter.numberStyle = .decimal
+            formatter.groupingSeparator = ","
+            formatter.groupingSize = 3
+            formatter.positivePrefix = "+"
+            return formatter.string(from: NSNumber(value: self)) ?? ""
+        }
+    }
 }
